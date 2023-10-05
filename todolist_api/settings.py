@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-&p4di66x&_=(wl27s_0zf)pd3c(0kuc5$5d6)32vu!vk7q!2gl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['juliadeveloper.pythonanywhere.com']
+ALLOWED_HOSTS = [
+                'juliadeveloper.pythonanywhere.com',
+                '127.0.0.1',
+                'localhost']
 
 
 # Application definition
